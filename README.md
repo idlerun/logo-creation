@@ -4,16 +4,19 @@ tags: logo favicon
 date: 2016-05-20
 ---
 
-### Install [Sketch App](http://www.sketchapp.com/)
+### Install [Sketch App](http://www.sketchapp.com/) and ImageMagick
 
 ```bash
 brew cask install sketch
+brew install imagemagick
 ```
 
 ### Create a logo
 Design a logo in Sketch using vector components. Export the result to an SVG
 
 ### Convert the SVG to favicon formats
+
+#### Using the ImageMagick `convert` command
 
 ```bash
 convert -density 300 -background transparent myicon.svg -define icon:auto-resize=64,48,32,16 favicon.ico
