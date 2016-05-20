@@ -4,7 +4,7 @@ tags: logo favicon
 date: 2016-05-20
 ---
 
-### Install Sketch app
+### Install [Sketch App](http://www.sketchapp.com/)
 
 ```bash
 brew cask install sketch
