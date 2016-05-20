@@ -16,7 +16,7 @@ Design a logo in Sketch using vector components. Export the result to an SVG
 
 ### Convert the SVG to favicon formats
 
-#### Using the ImageMagick `convert` command
+**With the ImageMagick `convert` command**
 
 ```bash
 convert -density 300 -background transparent myicon.svg -define icon:auto-resize=64,48,32,16 favicon.ico
